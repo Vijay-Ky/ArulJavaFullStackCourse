@@ -2,20 +2,14 @@ class L
 {
 	public static void main(String[] args) 
 	{
-		//documentation/information purpose
-		//comments will not affect the flow of execution
-		//single line comment
-		//System.out.println("Hello World!");
-		
-		/* multiline comment
-		anything
-				across
-						multiple lines */
-
-		/*
-		*documentation comment
-		*
-		*
-		*/
+		System.out.println("Hello World!");//String
+		System.out.println(10000);//integer
+		System.out.println(10.95);//floating
+		System.out.println('a');//character
+		System.out.println('%');
+		System.out.println(true);//boolean
+		System.out.println(false);
 	}
 }
+/*in java we have 5 types of literals
+literal - literal is a value that can be assigned to a variable*/

@@ -1,9 +1,7 @@
 public class G 
 {
-}
-public class H
-{
-}
-public class I
-{
+	public static void main(String[] args) 
+	{
+		System.out.println("from G class");
+	}
 }
