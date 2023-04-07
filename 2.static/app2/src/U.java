@@ -6,8 +6,8 @@ class U
 	static 
 	{
 		System.out.println("SIB:" + "i:" + i + ", " + "j:" + j);
-		i += 1;
-		j += i;
+		i += 1;// i = i + 1
+		j += i;//j = j + i
 		main(null);
 		System.out.println("SIBAgain:" + "i:" + i + "," + "j:" + j);
 		i += 2;

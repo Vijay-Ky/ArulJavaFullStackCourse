@@ -2,6 +2,6 @@ class S
 {
 	static void test()
 	{
-		System.out.println("from test");
+		System.out.println("from test S");
 	}
 }

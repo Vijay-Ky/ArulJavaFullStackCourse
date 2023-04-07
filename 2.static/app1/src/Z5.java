@@ -7,7 +7,7 @@ class Z5
 		main(null);
         return 10;
     }
-    public static void main(String[]args)
+    public static void main(String[] args)
     {
 		System.out.println("from main");
 		System.out.println(i);
