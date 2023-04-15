@@ -8,7 +8,7 @@ class B
 	{
 		System.out.println("IIB");
 	}
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		B b1 = new B();
 		System.out.println("-----");
