@@ -1,0 +1,7 @@
+1. What is an Object?
+2. What is a Class?
+3. What are instance variables?
+4. What is a static variable?
+5. How will you create an object?
+6. What is the default value of an object reference declared as an instance variable?
+7. Differentiate between a Class and an Object?

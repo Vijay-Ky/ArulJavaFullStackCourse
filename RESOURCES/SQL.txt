@@ -1,0 +1,558 @@
+SQL stands for Structured Query Language is a domain specific programming language for managing the data in Database Management Systems. SQL programming skills are highly desirable and required in the market, as there is a massive use of Database Management Systems (DBMS) in almost every software application. In order to get a job, candidates need to crack the interview in which they are asked various SQL interview questions.
+Following is a curated list of SQL interview questions and answers, which are likely to be asked during the SQL interview. Candidates are likely to be asked basic SQL interview questions to advance level SQL questions depending on their experience and various other factors. The below list covers all the SQL interview questions for freshers as well as SQL interview questions for experienced level candidates and some SQL query interview questions.
+ 
+1. What is DBMS?
+2. What is RDBMS?
+3. What is SQL?
+4. What is a Database?
+5. What are tables and Fields?
+6. What is a primary key?
+7. What is a unique key?
+8. What is a foreign key?
+9. What is a join?
+10. What are the types of join and explain each?
+11. What is normalization?
+12. What is Denormalization.
+13. What are all the different normalizations?
+14. What is a View?
+15. What is an Index?
+16. What are all the different types of indexes?
+17. What is a Cursor?
+18. What is a relationship and what are they?
+19. What is a query?
+20. What is subquery?
+21. What are the types of subquery?
+22. What is a stored procedure?
+23. What is a trigger?
+24. What is the difference between DELETE and TRUNCATE commands?
+25. What are local and global variables and their differences?
+26. What is a constraint?
+27. What is data Integrity?
+28. What is Auto Increment?
+29. What is the difference between Cluster and Non-Cluster Index?
+30. What is Datawarehouse?
+31. What is Self-Join?
+32. What is Cross-Join?
+33. What is user defined functions?
+34. What are all types of user defined functions?
+35. What is collation?
+36. What are all different types of collation sensitivity?
+37. Advantages and Disadvantages of Stored Procedure?
+38. What is Online Transaction Processing (OLTP)?
+39. What is CLAUSE?
+40. What is recursive stored procedure?
+41. What is Union, minus and Interact commands?
+42. What is an ALIAS command?
+43. What is the difference between TRUNCATE and DROP statements?
+44. What are aggregate and scalar functions?
+45. How can you create an empty table from an existing table?
+46. How to fetch common records from two tables?
+47. How to fetch alternate records from a table?
+48. How to select unique records from a table?
+49. What is the command used to fetch first 5 characters of the string?
+50. Which operator is used in query for pattern matching?
+51.What is Normalization? 1NF, 2NF, 3NF, BCNF Database Example
+52.What is the difference between SQL and MySQL?
+53.What are the different subsets of SQL?
+54.What do you mean by DBMS? What are its different types?
+55.What do you mean by table and field in SQL?
+56.What are joins in SQL?
+57.What is the difference between CHAR and VARCHAR2 datatype in SQL?
+58.What is the Primary key?
+59.What are Constraints?
+60.What is the difference between DELETE and TRUNCATE statements?
+61.What is a Unique key?
+62.What is the difference between SQL and MySQL?
+63.What are the different subsets of SQL?
+64.What do you mean by DBMS? What are its different types?
+65.What do you mean by table and field in SQL?
+66. What are joins in SQL?
+67. What is the difference between CHAR and VARCHAR2 datatype in SQL?
+68. What is a Primary key?
+69. What are Constraints?
+70. What is the difference between DELETE and TRUNCATE statements?
+71. What is a Unique key?
+72. What is a Foreign key in SQL?
+73. What do you mean by data integrity? 
+74. What is the difference between clustered and non-clustered index in SQL?
+75. Write a SQL query to display the current date?
+76. What do you understand by query optimization?
+77. What do you mean by Denormalization?
+78. What are Entities and Relationships?
+79. What is an Index?
+80. Explain different types of index in SQL.
+81. What is Normalization and what are the advantages of it?
+82. What is the difference between DROP and TRUNCATE commands?
+83. Explain different types of Normalization.
+84. What is the ACID property in a database?
+85. What do you mean by “Trigger” in SQL?
+86. What are the different operators available in SQL?
+87.  Are NULL values same as that of zero or a blank space? 
+88. What is the difference between cross join and natural join?
+89. What is subquery in SQL?
+90. What are the different types of a subquery?
+91. List the ways to get the count of records in a table?
+92. Write a SQL query to find the names of employees that begin with ‘A’?
+93. Write a SQL query to get the third-highest salary of an employee from employee_table?
+94. What is the need for group functions in SQL? 
+95. What is a Relationship and what are they?
+96.  How can you insert NULL values in a column while inserting the data?
+97. What is the main difference between ‘BETWEEN’ and ‘IN’ condition operators?
+98. Why are SQL functions used?
+99. What is the need for MERGE statement?
+100. What do you mean by recursive stored procedure?
+101. What is CLAUSE in SQL?
+102. What is the difference between ‘HAVING’ CLAUSE and a ‘WHERE’ CLAUSE?
+103. List the ways in which  Dynamic SQL can be executed?
+104. What are the various levels of constraints?
+105. How can you fetch common records from two tables?
+106. List some case manipulation functions in SQL?
+107. What are the different set operators available in SQL?
+108. What is an ALIAS command?
+109. What are aggregate and scalar functions?
+110. How can you fetch alternate records from a table?
+111. Name the operator which is used in the query for pattern matching?
+112. How can you select unique records from a table?
+113. How can you fetch first 5 characters of the string?
+114. What is the main difference between SQL and PL/SQL?
+115. What is a View?
+116. What is a Stored Procedure?
+117. List some advantages and disadvantages of Stored Procedure?
+118. List all the types of user-defined functions?
+119. What do you mean by Collation?
+120. What are the different types of Collation Sensitivity?
+121. What are Local and Global variables?
+122. What is Auto Increment in SQL?
+123. What is a Datawarehouse?
+124. What are the different authentication modes in SQL Server? How can it be changed?
+125. What are STUFF and REPLACE function?
+126. What are Tables and Fields?
+127. table is an organized collection of data stored in the form of rows and columns. Columns can be categorized as vertical and rows as horizontal. The columns in a table are called fields while the rows can be referred to as records.
+128. What are Constraints in SQL?
+129. What is a UNIQUE constraint?
+130. What is a Foreign Key?
+131. What is a Join? List its different types.
+132. What is a Self-Join?
+133. What is a Cross-Join?
+134. What is an Index? Explain its different types.
+135. What is the difference between Clustered and Non-clustered index?
+136. What is Data Integrity?
+137. What is a Query?
+138. What is the SELECT statement?
+139. What are some common clauses used with SELECT query in SQL?
+140. What are UNION, MINUS and INTERSECT commands?
+141. What is Cursor? How to use a Cursor?
+142. List the different types of relationships in SQL.
+143. What is a View?
+144. What is Normalization?
+145. What is Denormalization?
+146. What are the various forms of Normalization? 
+147. What is the difference between DROP and TRUNCATE statements?
+148. What is the difference between DELETE and TRUNCATE statements?
+149. What are Aggregate and Scalar functions?
+150. What is OLTP?
+151. What are the differences between OLTP and OLAP?
+152. What is Collation? What are the different types of Collation Sensitivity?
+153. What is a Stored Procedure?
+154. What is a Recursive Stored Procedure?
+155. How to create empty tables with the same structure as another table?
+156. What is Pattern Matching in SQL?
+157. When SQL appeared?
+158. What are the usages of SQL?
+159.Does SQL support programming?
+160.What is a Data Definition Language?
+161.What is a Data Manipulation Language?
+162.What is Data Control Language?
+163.What are tables and fields in the database?
+164.What are the different types of database management systems?
+165.What is the primary use of Normalization?
+166. What is an inconsistent dependency?
+167.What is Denormalization in a Database?
+168.What are the types of operators available in SQL?
+169.What is an Index in SQL?
+170.Which are the different types of indexes in SQL?
+171.What is Clustered Index in SQL?
+172.What is the Non-Clustered Index in SQL?
+173.What is the difference between SQL, MySQL and SQL Server?
+174.What is the difference between SQL and PL/SQL?
+175.Is it possible to sort a column using a column alias?
+176.What is the difference between clustered and non-clustered index in SQL?
+177.What is the SQL query to display the current date?
+178.Which are the most commonly used SQL joins?
+179.What are the different types of joins in SQL?
+180.What is Inner Join in SQL?
+181.What is Right Join in SQL?
+182.What is Left Join in SQL?
+183.What is Full Join in SQL?
+184.What is a "TRIGGER" in SQL?
+185.What is self-join and what is the requirement of self-join?
+186.What are the set operators in SQL?
+187.What is the difference between BETWEEN and IN condition operators?
+189.What is a constraint? Tell me about its various levels.
+190.Write an SQL query to find names of employee start with 'A'?
+191.What is ACID property in a database?
+192.What is the difference between NULL value, zero and blank space?
+193.What is the usage of SQL functions?
+194.What do you understand by case manipulation functions?
+195.Which are the different case manipulation functions in SQL?
+196.Explain character-manipulation functions?
+197.Which are the different character-manipulation functions in SQL?
+198.What is the usage of NVL() function?
+199.Which function is used to return remainder in a division operator in SQL?
+200.What are the syntax and use of the COALESCE function?
+201.What is the usage of the DISTINCT keyword?
+202.How to create a table in SQL?2
+203.How to delete a table in SQL?
+204.How to change a table name in SQL?
+205.How to delete a row in SQL?
+206.How to create a database in SQL?
+207.What is Normalization in SQL?
+208.What is SQL server?
+209.How to insert date in SQL?
+210. How do I view tables in SQL?
+211.What is MYSQL?
+212.How can I see all tables in SQL?
+213.What is ETL in SQL?
+214.How to install SQL?
+215.What is the update command in SQL?
+216.How to rename column name in SQL Server?
+217.What are the types of SQL Queries?
+218.What are Nested Triggers?
+219.Write SQL query to fetch employee names having a salary greater than or equal to 20000 and less than or equal 10000.
+220.Given a table Employee having columns empName and empId, what will be the result of the SQL query below? select empName from Employee order by 2 asc;
+221.What is Data Integrity?
+222.Find the Constraint information from the table?
+223.Can you get the list of employees with same salary? 
+224.What is an alternative for TOP clause in SQL?
+225.Will following statement give error or 0 as output? SELECT AVG (NULL)
+226.What is the Cartesian product of the table?
+227.What is a schema in SQL?
+228.How to delete a column in SQL?
+229.How to implement multiple conditions using WHERE clause?
+230.What is SQL injection?
+231.How to insert multiple rows in SQL?
+232. How to find the nth highest salary in SQL?
+233.How to copy table in SQL?
+234.How to add a new column in SQL?
+235.How to use LIKE in SQL?
+236.If we drop a table, does it also drop related objects like constraints, indexes, columns, default, views and sorted procedures?
+237.Can we disable a trigger? If yes, How?
+238.What is a Live Lock?
+239.How to fetch alternate records from a table?
+240.Define COMMIT and give an example?
+241.Can you join table by itself? 
+242.Explain Equi join with example
+243.3How do we avoid getting duplicate entries in a query?
+244.How can you create an empty table from an existing table?
+245.Write a Query to display odd records from student table?Explain Non Equi Join with example?
+246.When two or more tables are joining without equal to condition then that join is known as Non Equi Join. Any operator can be used here that is <>,!=,<,>,Between. Example: Select b.Department_ID,b.Department_name from Employee a,Department b where a.Department_id <> b.Department_ID;
+247.How can you delete duplicate records in a table with no primary key?
+248.Difference between NVL and NVL2 functions?
+249.What is the difference between clustered and non-clustered indexes?
+250.What does this query says? GRANT privilege_name ON object_name TO {user_name|PUBLIC|role_name} [WITH GRANT OPTION];
+251.Where MyISAM table is stored?
+252.What is ISAM?
+253.What are the different types of SQL sandbox?
+254.What is Database Black Box Testing?
+255.Explain Right Outer Join with Example?
+256.How to find duplicate records in SQL?
+257.What is Case WHEN in SQL?
+258.How to find 2nd highest salary in SQL?
+259.How to delete duplicate rows in SQL
+260.How to create a stored procedure using SQL Server?
+261.How to create an index in SQL?
+262.How to change column data-type in SQL?
+263.What is the difference between SQL and NoSQL databases?
+264.How to change column name in SQL?
+265.How to drop a column in SQL?
+266.How to remove duplicate rows in SQL?
+267.How to join two tables in SQL?
+268.How to use BETWEEN in SQL?
+269. How to sort a column using a column alias?
+270.What is the difference between COALESCE() & ISNULL() ? 
+271.Write a Query to display employee details along with age?
+272.What are aggregate and scalar functions?
+273.What is a deadlock?
+274.Explain left outer join with example?
+275.What is an UNION operator?
+276.Explain SQL Constraints?
+277.What is ALIAS command?
+278.What are Group Functions? Why do we need them?
+280.How can dynamic SQL be executed?
+281.What is the usage of NVL() function?
+282.Write a Query to display employee details belongs to ECE department?
+283.What are the main differences between #temp tables and @table variables and which one is preferred ?
+284.What is CLAUSE
+285.What is recursive stored procedure?
+286.What is a schema?
+287.What does the BCP command do?
+288.What is a Cross Join?
+289.Which operator is used in query for pattern matching?
+290.Write a SQL query to get the current date?
+291.State the case maniplation functions in SQL?
+292.How to add a column to an existing table?
+293.Define lock escalation?
+294.How to store Videos inside SQL Server table ?
+295.State the order of SQL SELECT?
+296.What is the difference between IN and EXISTS?
+297.How do you copy data from one table to another table ?
+298.List the ACID properties that makes sure that the database transactions are processed
+299.What will be the output of the following Query, provided the employee table has 10 records? 
+BEGIN TRAN TRUNCATE TABLE Employees ROLLBACK SELECT * FROM Employees
+300.What do you mean by Stored Procedures? How do we use it?
+301.What does GRANT command do?
+302.What does First normal form do?
+303.How to add e record to the table?
+304.What are the different tables present inMySQL?
+305.What is BLOB and TEXT in MySQL?
+306.What is the use of mysql_close()?
+307.How do you return a hundred books starting from 25th?
+308.How would you select all the users, whose phone number is NULL?
+309.How do you run batch mode in mysql?
+310.Write an SQL query to show the second highest salary from a table.
+311.Write an SQL query to fetch three max salaries from a table.
+312.What is the difference between NOW() and CURRENT_DATE()?
+313.How can we convert between Unix & MySQL timestamps?
+314.What are the nonstandard string types?
+315.What is the group by clause used for?
+316.How do you get the last id without the max function?
+317.Write a SQL query to fetch only even rows from the table.
+318.Write a SQL query to create a new table with data and structure copied from another table.
+319.What are the different types of Collation Sensitivity?
+320.Write a query to find out the data between range?.
+321.How to calculate the number of rows in a table without using the count function?
+322.What is wrong with the following query? SELECT empName FROM employee WHERE salary <> 6000
+323.Will the following statements execute? if yes what will be output? SELECT NULL+1 SELECT NULL+’1′
+324.What is the difference between DBMS and RDBMS?
+325.Can we embed Pl/SQL in SQL? Justify your answers
+326.What do you mean by data manipulation language - DML?
+327.What is a join in SQL? What are the types of joins?
+328.Explain SQL constraints?
+329.What is a primary key, a foreign key, and a unique key
+330.What are ACID properties in a transaction
+331.What is Dateadd SQL?
+332.What is SAVEPOINT in transaction control?
+333.What is a Natural Join?
+334.What are the scalar functions in SQL? Give an example?
+335.What is a cursor, and when do you use it?
+336.What is a set-based solution?
+337.What is a forward cursor?
+338. State one situation where the set-based solution is advantageous over the cursor-based solution
+339.What is de-normalization, and when do you go for it?
+340.What are clustered indexes and non-clustered indexes?
+341.What is T-SQL?
+342.What are system functions and give one example
+343.What is a transaction log?
+344.How do you maintain database integrity where deletions from one table will automatically cause deletions in another table?
+345.Define COMMIT
+346.What does CHECK CONSTRAINT do?
+347.What is a schema?
+348.How can you create an empty table from an existing table?
+349.What is a composite key?
+350.How do you sort records in a table?
+351.What is a shared lock?
+352.What is lock escalation?
+353.How do we avoid getting duplicate entries in a query?
+354.Give an example of a comparison operator in SQL
+355.What is a Non-correlated subquery
+356.What is a SYSTEM Privilege?
+352.What are Object Privileges?
+353.What does the BCP command do?
+354.What does the VARIANCE function do?
+355.Where are stored procedures stored in the database?
+356.Can we call Stored Procedure inside Stored Procedure?
+357.Does the data stored in the stored procedure increase access time or execution time? Explain
+358.Can a Stored Procedure contain a return value?
+359.Can a View be active if the Base table is dropped?
+360.What is a One-Many Relationship in SQL?
+361.Distinguish between a table and a field in SQL.
+362.What is data integrity?
+363.What are entities and relationship
+364.What is the difference between null, zero and blank space?
+365.Which function is used to return the remainder in a division operator in SQL?
+366.What are case manipulation functions?
+367.What are the different case manipulation functions in SQL?
+368.What are the character manipulation functions?
+369.What are the different character manipulation functions?
+370.Define inconsistent dependency.
+371.What are the different operators in SQL?
+372.What are GROUP functions? Why do we need them?
+373.Distinguish between BETWEEN and IN conditional operators.
+374.What is the MERGE statement?
+375.Explain recursive stored procedure.
+376.How can dynamic SQL be executed?
+377.What do you understand by Auto Increment?
+378.What is a Data warehouse?
+379.What are user-defined functions?
+380.Mention the types user-defined functions?
+381.What is ALIAS command?
+382.Mention the different types of collation sensitivity.
+383.What are STUFF and REPLACE functions?
+384.What does UNION do? What is the difference between UNION and UNION ALL?
+385.List and explain the different types of JOIN clauses supported in ANSI-standard SQL.
+386.What will be the result of the query below?
+SELECT * FROM runners WHERE id NOT IN (SELECT winner_id FROM races)
+387.Explain your answer and also provide an alternative version of this query that will avoid the issue that it exposes.
+388.Assume a schema of Emp ( Id, Name, DeptId ) , Dept ( Id, Name).
+If there are 10 records in the Emp table and 5 records in the Dept table, how many rows will be displayed in the result of the following SQL query:
+Select * From Emp, Dept
+389.Write a SQL query to find the 10th highest employee salary from an Employee table. Explain your answer.
+(Note: You may assume that there are at least 10 records in the Employee table.)
+390.Write a SQL query using UNION ALL (not UNION) that uses the WHERE clause to eliminate duplicates. Why might you want to do this?
+391.Write a query to to get the list of users who took the a training lesson more than once in the same day, grouped by user and training lesson, each ordered from the most recent lesson date to oldest date.
+392.What is an execution plan? When would you use it? How would you view the execution plan?
+393.Given a table dbo.users where the column user_id is a unique numeric identifier, how can you efficiently select the first 100 odd user_id values from the table?
+(Assume the table contains well over 100 records with odd user_id values.)
+394.What are the NVL and the NVL2 functions in SQL? How do they differ?
+395.How can you select all the even number records from a table? All the odd number records?
+396.What is the difference between the RANK() and DENSE_RANK() functions? Provide an example.
+397.What is the difference between the WHERE and HAVING clauses?
+398.Given a table Employee having columns empName and empId, what will be the result of the SQL query below?
+select empName from Employee order by 2 desc;
+399.What will be the output of the below query, given an Employee table having 10 records?
+BEGIN TRAN
+TRUNCATE TABLE Employees
+ROLLBACK
+SELECT * FROM Employees
+400.What is the difference between single-row functions and multiple-row functions?
+401.What is the group by clause used for?
+402.Imagine a single column in a table that is populated with either a single digit (0-9) or a single character (a-z, A-Z). Write a SQL query to print ‘Fizz’ for a numeric value or ‘Buzz’ for alphabetical value for all values in that column.
+Example:
+['d', 'x', 'T', 8, 'a', 9, 6, 2, 'V']
+…should output:
+['Buzz', 'Buzz', 'Buzz', 'Fizz', 'Buzz','Fizz', 'Fizz', 'Fizz', 'Buzz']
+403.Write an SQL query to display the text CAPONE as:
+C
+A
+P
+O
+N
+E 
+Or in other words, an SQL query to transpose text.
+404.Can we insert a row for identity column implicitly?
+405.What will be the output of below snippet?
+Select SUM(1) FROM "Test"."EMP";
+Select SUM(2) FROM "Test"."EMP";
+Select SUM(3) FROM "Test"."EMP";
+406.Print the rows which have ‘Yellow’ in one of the columns C1, C2, or C3, but without using OR.
+407.Write a query to insert/update Col2’s values to look exactly opposite to Col1’s values.
+Col1	Col2
+1	0
+0	1
+0	1
+0	1
+1	0
+0	1
+1	0
+1	0
+408.How do you get the last id without the max function?
+409.What is the difference between IN and EXISTS?
+410.Suppose in a table, seven records are there.
+The column is an identity column.
+Now the client wants to insert a record after the identity value 7 with its identity value starting from 10.
+Is it possible? If so, how? If not, why not?
+411.How can you use a CTE to return the fifth highest (or Nth highest) salary from a table?
+412.Write a single query to calculate the sum of all positive values of x and he sum of all negative values of x.
+413.Write a query that produces the output:
+weight	kg	gms
+5.67	5	67
+34.567	34	567
+365.253	365	253
+34	34	0
+414.Consider the Employee table below.
+Emp_Id	Emp_name	Salary	Manager_Id
+10	Anil	50000	18
+11	Vikas	75000	16
+12	Nisha	40000	18
+13	Nidhi	60000	17
+14	Priya	80000	18
+15	Mohit	45000	18
+16	Rajesh	90000	–
+17	Raman	55000	16
+18	Santosh	65000	17
+Write a query to generate below output:
+Manager_Id	Manager	Average_Salary_Under_Manager
+16	Rajesh	65000
+17	Raman	62500
+18	Santosh	53750
+415.How do you copy data from one table to another table ?
+416.Find the SQL statement below that is equal to the following: SELECT name FROM customer WHERE state = 'VA';
+1.	SELECT name IN customer WHERE state IN ('VA');
+2.	SELECT name IN customer WHERE state = 'VA';
+3.	SELECT name IN customer WHERE state = 'V';
+4.	SELECT name FROM customer WHERE state IN ('VA');
+417.Here is a query written to return the list of customers not referred by Jane Smith:
+SELECT Name FROM Customers WHERE ReferredBy <> 2;
+What will be the result of the query? Why? What would be a better way to write it?
+418.Write a query to add 2 where Nmbr is 0 and add 3 where Nmbr is 1.
+419.Write a single SQL statement to concatenate all the customer names into the following single semicolon-separated string:
+Prashant Kaurav; Ashish Jha; Ankit Varma; Vineet Kumar; Rahul Kumar
+420.How do you get the Nth-highest salary from the Employee table without a subquery or CTE?
+421.How to find a duplicate record?
+1.duplicate records with one field
+2.duplicate records with more than one field
+422.Considering the database schema displayed in the SQLServer-style diagram below, write a SQL query to return a list of all the invoices. For each invoice, show the Invoice ID, the billing date, the customer’s name, and the name of the customer who referred that customer (if any). The list should be ordered by billing date.
+423. What is a default constraint?
+424. What is the need for group functions in SQL?
+425. What do you understand by a character manipulation function?
+426. What is AUTO_INCREMENT?
+427. What is the COALESCE function?
+428. What is wrong with the below-given SQL query?
+SELECT gender, AVG(age) FROM employee WHERE AVG(age)>30 GROUP BY gender
+When we execute this command, we get the following error:
+Msg 147, Level 16, State 1, Line 1
+Aggregation may not appear in the WHERE clause unless it is in a subquery contained in a HAVING clause or a select list, the column being aggregated is an outer reference.
+Msg 147, Level 16, State 1, Line 1
+Invalid column name ‘gender’.
+429.What do you know about the stuff() function?
+430.State the differences between views and tables.
+431. What do you understand by a temporary table? Write a query to create a temporary table.
+432.Explain the difference between OLTP and OLAP.
+433. What do you understand by Self Join?
+434. What is the use of the Intersect operator?
+435.What is the difference between BETWEEN and IN operators in SQL?
+435.Describe how to delete duplicate rows using a single statement but without any table creation.
+436.Explain database white box testing and black box testing.
+437.Consider the following Student table.
+438. What are the different Clauses used in SQL?
+439. What are transactions and their controls?
+440.What are the properties of the transaction?
+441.How many Aggregate functions are available in SQL?
+442.How we can update the view?
+443.Explain the working of SQL Privileges?
+444.How many types of Privileges are available in SQL?
+445.What is SQL Sandbox in SQL Server?
+446.What is the use of the NVL function?
+447.What is the Cartesian product of the table?
+448.How to write a query to show the details of a student from Students table whose
+name start with K?
+449.What is the difference between Nested Subquery and Correlated Subquery?
+450.What is a Relationship? How many types of Relationships are there?
+451.State some properties of Relational databases?
+452.What is Collation?
+453.What do we need to check in Database Testing?
+454.What is Database White Box Testing?
+455.How to select all records from the table?
+456.What is the syntax to add a record to a table?
+457.Define the SQL DELETE statement.
+457.Q #50) What is CHECK Constraint?
+458.Is it possible for a table to have more than one foreign key?
+459.Q #52) What are the possible values for the BOOLEAN data field?
+460.How to select random rows from a table?
+461.Which TCP/IP port does SQL Server run?
+462.Write a SQL SELECT query that only returns each name only once from a table?
+463.Can we rename a column in the output of the SQL query?
+464.Give the order of SQL SELECT?
+465.Suppose a Student column has two columns, Name and Marks. How to get names and marks of the top three students.
+466.What is SQL comments?
+467.What do you mean by ROWID?
+468.Define UNION, MINUS, UNION ALL, INTERSECT?
+469.What is Referential Integrity?
+470.What is the Case function?
+471.Define a temp table?
+472.Explain the difference between Rename and Alias?
+473.What are the advantages of Views?
+474.List the various privileges that a user can grant to another user?
+475.Can a View based on another View?
+476.What is the difference between Local and Global temporary tables?
+477.What is CTE?

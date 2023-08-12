@@ -1,0 +1,36 @@
+1.What is constructor chaining?
+2. Can we call sub class constructor from super class constructor?
+3. What happens if you keep return type for a constructor?
+4. What is No-arg constructor?
+5. What is the use of private constructor?
+6. Can we use this() and super() in a method?
+7. What is a Constructor?
+8. Do we have Copy Constructor in Java?
+9. Can we call sub class constructor from super class constructor?
+10. How a no – argument constructor is different from default Constructor?
+11. Do we have destructors in Java?
+12. Do we have a copy constructor in Java?
+13. Write a Java Program to Copy the values from one object to another Object.
+14. Is there any method to call a sub-class constructor from a superclass constructor?
+15. Can we have a constructor in the Interface?
+16. Explain Constructor Chaining?
+17. What happens if we provide a return type to a constructor?
+18. What is a private constructor?
+19. Why constructors in Java cannot be static?
+20. Can we make a constructor final?
+21. Can we make a constructor abstract?
+22. what will happen when a constructor is declared as protected?
+23. Why constructor name is similar to the class name?
+24. Why return type is not allowed for the constructor?
+25. What is the use of Private Constructors in Java?
+26. Can we have a Constructor in an Interface?
+27. Is it possible to call a sub class constructor from super class constructor?
+28. Can we have a class with no Constructor in it ? What will happen during object creation ?
+29. Can we have both Default Constructor and Parameterized Constructor in the same class?
+30. Can a Constructor return any value ?
+31. Will compiler create the Default Constructor when we already have a Constructor defined in the class ?
+32. Can an abstract class in Java have a constructor?
+33. What happens when a Constructor is defined as “protected” ?
+34. Why constructors cannot be final in Java?
+35. Why constructors cannot be abstract in Java?
+36. Why constructors cannot be static in Java?

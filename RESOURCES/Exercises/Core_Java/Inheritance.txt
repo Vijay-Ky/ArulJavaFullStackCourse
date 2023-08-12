@@ -1,0 +1,45 @@
+1.What is Inheritance in Java? 
+2.What are different types of Inheritance supported by Java? 
+3.Why multiple Inheritance is not supported by Java?
+4.Why Inheritance is used by Java Programmers? 
+5.How to use Inheritance in Java? 
+6.What is the syntax of Inheritance? 
+7.What is the difference between Inheritance and Encapsulation?
+8.What is the difference between Inheritance and Abstraction? 
+9.What is the difference between Polymorphism and Inheritance? 
+10.What is the difference between Composition and Inheritance in OOP? 
+11.Can we override static method in Java? 
+12.Can we overload a static method in Java? 
+13.Can we override a private method in Java? 
+14.What is method hiding in Java? 
+15.Can a class implement more than one interface in Java? 
+16.Can a class extends more than one class in Java? 
+17.Can an interface extends more than one interface in Java?
+18.What will happen if a class extends two interfaces and they both have a method with same name and signature? 
+19.Can we pass an object of a subclass to a method expecting an object of the super class?
+20.How to call a method of a subclass, if you are holding an object of the subclass in a reference variable of type superclass? 
+21.What are the rules to be followed while overriding a method?
+22.What is the base class of all classes?
+23.Does Java support multiple inheritances?
+24.Does a class inherit the constructors of its superclass?
+25.What is method overloading 
+26.What restrictions are placed on method overloading?
+27.What is the difference between overloading & overriding?
+28.Why Multiple Inheritance Is Not Supported By Java?
+29.Can A Class Extends More Than One Class In Java?
+30.Can An Interface Extends More Than One Interface In Java?
+31.Can a Class Extend Itself in Java?
+32.Are static members inherited to sub classes in Java?
+33.What is co-variant Method Overriding?
+34.Can we change argument list of overridden method?
+35.Can we change return type of method in subclass while overriding?
+36.Can we override a method which throws run-time exception without throws clause?
+37.Can we override a non-static method as static in Java?
+38.Can we override constructor in Java?
+39.Can you overload or override main method in Java?
+40.What is the difference between Polymorphism and Inheritance?
+41.What is the difference between Inheritance and Abstraction in Java?
+42.What is the difference between Inheritance and Encapsulation?
+43.What happens if both, super class and sub class, have a field with same name.?
+44.What is subclass in java?
+45.Can we overload a static method in Java? 

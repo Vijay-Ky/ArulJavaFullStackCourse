@@ -1,0 +1,15 @@
+IDENTIFIERS:
+----------------
+1.Find-out what are legal and illegal keywords?
+okidentifier
+hollywood@vine
+3DPointClass  
+$OK2Identifier
+*$coffee 
+_alsoOK1d3ntifi3r
+__SStillOkbutKnotsonice$
+public 
+
+
+
+

@@ -1,0 +1,15 @@
+1. Explain the usage of super keyword ?
+2. Why always immediate parent class constructor is invoked ?
+3. Rules for Constructor chaining?
+4. Does inserting explicit super(); constructor call inside child class constructor results in error ?
+5. How to invoke parent class’s parameterized constructor from child class ?
+6. How to invoke parent class’s instance variable from child class, when variable names of both parent & child class are same ?
+7. Whether it is possible to refer static variable of parent class from child class using super keyword ?
+8. How to invoke parent class method from child class, if method is overridden in the child class ?
+9. Write some points about super keyword in java?
+10. Can we access parent class variables in child class by using super keyword?
+11. Can we call parent class method in sub class by using super keyword.
+12. Can we call parent class constructor in sub class constructor i.e constructor chaining by using super keyword?
+13. Can we use both "this" and "super" in constructor?
+14. What is difference between this() and super()?
+15. Can we use super keyword in static method of a sub class for calling parent class method?

@@ -1,0 +1,568 @@
+1) Abstract class must have only abstract methods. True or false?
+2) Is it compulsory for a class which is declared as abstract to have at least one abstract method?
+3) Can we use “abstract” keyword with constructor, Instance Initialization Block and Static Initialization Block?
+4) Why final and abstract can not be used at a time?
+5) Can we instantiate a class which does not have even a single abstract methods but declared as abstract?
+6) Can we declare abstract methods as private? Justify your answer?
+7) We can’t instantiate an abstract class. Then why constructors are allowed in abstract class?
+8) Can we declare abstract methods as static?
+9) Can a class contain an abstract class as a member?
+10) Abstract classes can be nested. True or false?
+11) Can we declare abstract methods as synchronized?
+12) Can we declare local inner class as abstract?
+13) Can abstract method declaration include throws clause?
+14) Can abstract class have constructors in Java?
+15) Can abstract class implements interface in Java? do they require to implement all methods?
+16) Can an abstract class be final in Java?
+17) Can abstract class have static methods in Java?
+18. Can you create an instance of abstract class?
+19. Is it necessary for an abstract class to have an abstract method?
+20) Difference between abstract class and interface in Java?
+21) When do you favor abstract class over interface?
+22) What is abstract method in Java?
+23) Can abstract class contains main method in Java ?
+24. How to achieve or implement Abstraction in Java?
+25. What is Abstract class in Java? How to define it?
+26. What is the difference between abstract class and concrete class?
+27. Can abstract modifier applicable for variables?
+28. What is Abstract method in Java?
+29. Can an abstract method be declared as static?
+30. Can an abstract method be declared with private modifier?
+31. No, it cannot be private because the abstract method must be implemented in the child class. If we declare it as private, we cannot implement it from outside the class.
+32. What is Concrete method in Java?
+33. When to use Abstract class in Java?
+34. When to use Abstract method in Java?
+35. Is it possible to create an object of abstract class in Java?
+36. Is it possible that an abstract class can have without any abstract method?
+37. Can an abstract class have constructor?
+38. Is abstract class allow to define private, final, static, and concrete methods?
+39. Is it possible to achieve multiple inheritance through abstract class?
+40. Can we make an abstract class without abstract keyword?
+41. No, a class must be declared with abstract keyword to make an abstract class.
+42. Can we define an abstract method inside non-abstract class (concrete class)?
+43. Which among the following code have errors?
+44. Will the following code compile successfully? If yes, what will be the output of program?
+45. What will happen if we do not override all abstract methods in subclass?
+    Or, what will happen if we do not provide implementation for all abstract methods in subclass?
+46. What is the difference between Abstraction and Encapsulation?
+47. Why abstract class has constructor even though you cannot create object?
+48. Why should we create reference to superclass (abstract class reference)?
+49. What is the advantage of Abstract class in Java?
+50. Consider the below given code.
+public abstract class A {
+abstract void m1();
+void m2(){
+ System.out.println("One”); 
+ }
+}
+
+How to call m2() method in the above code?
+
+51. Identify the errors in the following code.
+public abstract class A {
+abstract void m1();
+void m2(){
+ System.out.println("One"); 
+ }
+}
+public class B extends A {
+ void m2(){
+  System.out.println("Two");
+ }
+}
+public class Test {
+public static void main(String[] args) {
+B b = new B();
+ b.m2();
+  }
+}
+52. Will the given code compile successfully? If yes, how?
+public abstract class A {
+abstract void m1();
+}
+public class B extends A {
+ private void m1(){
+  System.out.println("One");     
+ }
+}
+public class Test {
+public static void main(String[] args) {
+B b = new B();
+ b.m1();
+  }
+}
+53. Will the below code compiled successfully? If yes, what will be the output of the program?
+public abstract class A {
+abstract void m1();
+abstract void m2();
+}
+public class B extends A {
+ void m1(){
+  System.out.println("One");     
+ }
+ void m2(){
+  System.out.println("Two");     
+ }
+ void m3() {
+  System.out.println("Three");   
+ }
+}
+public class Test {
+public static void main(String[] args) {
+A a = new B();
+ a.m1();
+ a.m2();
+ a.m3();
+  }
+}
+54. Will the below code be compiled successfully? If yes, what will be the output of the following program?
+
+public abstract class A {   
+abstract void m1();
+ A(){ System.out.println("Hello"); }
+ static void m2() {System.out.println("Hello Java!"); }
+}
+public class B extends A {
+ void m1(){
+  A.m2(); 
+ }
+}
+public class Test {
+public static void main(String[] args) {
+ B b = new B();
+  b.m1();
+ }
+}
+55. What will be the output of the following program?
+public abstract class A {   
+
+abstract void m1();
+
+ A(){ System.out.println("Red"); }
+
+ static void m2() {System.out.println("Orange"); }
+
+}
+
+public class B extends A {
+
+ void m1(){
+
+  A.m2();
+
+  System.out.println("Pink");
+
+ }
+
+}
+
+public class C extends B {
+
+ void m3(){
+
+    System.out.println("Green"); 
+
+  }
+
+ }
+
+public class Test {
+
+public static void main(String[] args) {
+
+C c = new C();
+
+ c.m3();
+
+ c.m1();
+
+  }
+
+}
+56. Identify the error in the below code and correct the error.
+ 
+
+public abstract class A {   
+
+abstract void m1(int x, int y);
+
+}
+
+public class B extends A {
+
+ void m1(){
+
+  System.out.println(" ");
+
+ }
+
+}
+
+57. Correct the given code and find out the output?
+ 
+
+public abstract class A {   
+
+abstract void m1(int x, double y);
+
+}
+
+public class B extends A {
+
+ void m1(double y, int x){
+
+  System.out.println("Hello Java!");
+
+ }
+}
+public class Test {
+public static void main(String[] args) {
+A a = new B();
+ a.m1(20, 20.50);
+ }
+}
+
+
+58. What will be the output of the below program?
+ 
+public abstract class A {
+
+ private int x;
+
+ A(int x){
+
+  System.out.println("Value of x: " +x);    
+
+ }
+
+  abstract void m1(int x, double y);
+
+}
+
+public class B extends A {
+
+ private int y; 
+
+ B(int y){
+
+   super(10);   
+
+   System.out.println("Value of y: " +y);
+
+}
+
+void m1(int x, double y){
+
+  System.out.println("One");
+
+ }
+
+void m2(){
+
+  System.out.println("Two"); 
+
+  this.m1(5, 10.50);
+
+ }
+
+}
+
+public class C extends B {
+
+ C(){
+
+ super(30);  
+
+ }
+
+ void m1(int x, double y){
+
+   super.m1(10, 15.15);
+
+   System.out.println("Three"); 
+
+  }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+B b = new C();  
+
+ b.m1(10, 20.50);
+
+ b.m2();
+
+  }
+
+}
+59. What will be the output of the below program?
+ 
+public abstract class A {
+ abstract void m1(int x, double y);
+
+ abstract void m2(String name);
+}
+public class B extends A {
+void m1(int x, double y){
+
+  System.out.println("One");    
+
+}
+
+void m2(String name){
+
+  System.out.println("Two");    
+
+ }
+
+}
+
+public class C extends B {
+
+static void m1(){
+
+ super.m1(20, 30);  
+
+  }
+
+ }
+
+public class Test {
+
+public static void main(String[] args){
+
+ C.m1();
+
+  }
+
+}
+
+60. What will be the output of the following program?
+ 
+public abstract class A {
+
+abstract void m1(int x, double y);
+
+abstract void m2(String name);
+
+}
+
+public class B extends A {
+
+void m1(int x, double y){
+
+  System.out.println("One");    
+
+}
+
+void m2(String name){
+
+  System.out.println("Two");    
+
+}
+
+void m3(){
+
+ System.out.println("Three");   
+
+}
+
+void m4(){
+
+ System.out.println("Four");    
+
+ }
+
+}
+
+public class C extends A {
+
+ B b;   
+
+void m1(int x, double y){   
+
+ b = new B();
+
+ b.m3();
+
+}
+
+void m2(String name){
+
+  b = new B();
+
+  b.m4();
+
+  }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+A a = new C();
+
+ a.m1(20, 30.0);
+
+ a.m2("abc");
+
+  }
+
+}
+61. What will be the output of the below program?
+ 
+
+public abstract class A {
+abstract void m1(A a);
+
+abstract void m2(A a);
+
+}
+
+public class B extends A {
+
+void m1(A a){
+
+  System.out.println("One");    
+
+}
+
+void m2(A a){
+
+  System.out.println("Two");    
+
+ }
+
+}
+
+public class C extends B {
+
+void m1(B b){   
+
+ System.out.println("Three");
+
+ super.m1(new B());
+
+}
+
+void m2(B b){
+
+ System.out.println("Four");
+
+ super.m2(new B());
+
+  }
+
+ }
+
+public class Test {
+
+public static void main(String[] args){
+
+C c = new C();
+
+ c.m1(new B());
+
+ c.m2(new B());
+  }
+}
+62.Important points about abstraction?
+63.why we use a constructor in abstract class in java?
+64.Can we define an abstract class as a final class?
+65.Difference between abstract class and interface in Java.
+66.Can we define the main class as an abstract class?
+67abstract class Main {
+68.public static void main(String[] args) {
+69.System.out.println("hello codebun");
+}
+}
+70.Can we declare abstract methods as private?
+71.How To Describe Abstraction In Interview?
+72.Question: Can abstract class implements interface in Java? does they require to implement all methods?
+73. Can abstract class be final in Java?
+74.In real world also, abstract signifies incompleteness, while final is used to demonstrate completeness. Bottom line is, you can not make your class abstract and final in Java, at same time, it’s a compile time error.
+75.Question: Can you create instance of abstract class?
+76.Question: Is it necessary for abstract class to have abstract method?
+77.Question: What is abstract method in Java?
+78.Question: Can abstract class contains main method in Java?
+79.Question: Abstract Class Vs Interface
+80.Can we define abstract class without abstract method?
+81.Can we declare abstract method in non-abstract class?
+82.What is interface in  java? 
+83.Why we use interface in java?
+84.Can we create instance of interface?
+85.Can we declare abstract method as static?
+86.Can we declare abstract method as final?
+87.Can we declare abstract method as private?
+88.Can we use public, protected and default modifiers with abstract method?
+89.Can we declare local inner class as abstract?
+90.Method in interface are by default public and abstract. true or false?
+91.Data member in interface are by default public, static, and final. true of false?
+92.Can abstract class implements interface in java?
+93.Can we use abstract keyword with constructor?
+94.Abstract classes can be nested. true or false?
+95.Can abstract class have constructor in java?
+96.Difference between abstraction and encapsulation in java?
+97.What is the difference between abstract class and interface?
+98.Can abstract method declaration include throws clause?
+99.What will happen if we do not override all the abstract methods in sub-class?
+100.Whether abstract class compiles successfully if it contains both concrete & abstract methods together?
+101.Write an example of the abstract classes containing both concrete & abstract method?
+102.What happens if subclass extending abstract classes doesn’t override abstract methods?
+103.What all options available for subclass extending an abstract class to not override abstract methods?
+104.Can abstract class implements interface?
+105.Can an abstract class be defined without any abstract methods?
+106.Whether it is mandatory to have abstract methods in an abstract class? If not, why such a design is required?
+107.Can we define an abstract class without an abstract method? Why it is needed?
+108.Can we define an abstract class without an abstract keyword in the class declaration?
+109.Whether class compiles successfully if a class contains abstract methods and no abstract keyword at class declaration?
+110.Can we define constructor inside an abstract class?
+111.Can an abstract class be instantiated?
+112.Why abstract classes cannot be instantiated if constructors can be defined inside an abstract class?
+113.Can an abstract class be final?
+114.Can we declare an abstract method with a static modifier inside an abstract class?
+115.Can we declare a concrete (non-abstract) method with the final modifier inside an abstract class?
+116.Can we declare an abstract method with a private modifier inside an abstract class?
+117.Why modifiers such as final, static & private are not allowed for abstract methods declared in abstract class?
+118.What are all modifiers allowed for abstract method declaration?
+119.What are all modifiers allowed for an abstract class declaration?
+120.Can we define private constructor inside an abstract class?
+121.Is it ok to declare an abstract method inside a non-abstract class?
+122.Can we declare static fields inside an abstract class?
+123.Can we define static methods giving concrete implementation inside an abstract class?
+124.Whether an abstract method inside the abstract class can throw exceptions? Or Can abstract method declaration include throws clause?
+125.Can abstract class contain the main() method and starts the execution? Write a program?
+126.Can we an overload abstract method in Java?
+127.What is an Abstract Class and what is its purpose?
+128.Can an abstract class be declared final?
+129.What is the use of an abstract variable?
+130.Can you create an object of an abstract class?
+131.Can an abstract class be defined without any abstract methods?
+132.What is an abstract method?
+133.Can an abstract class be final?
+134.What is the final class?
+135.What if the main() method is declared as private?
+136.What if the static modifier is removed from the signature of the main() method?
+137.What if I write static public void instead of the public static void?
+138.What is the difference between abstract class and interface?
+139.Can I create an abstract variable?
+140.What is an abstract class?
+141.Can an abstract class be instantiated?
+142.Can a abstract class be defined without any abstract methods?
+143.What is the difference between an Interface and an Abstract class?
+144.Can an abstract method be declared static in Java?
+145.Java 8, difference between abstract class and Interface.
+146.Can abstract class implement an interface in Java?
+147.Can an abstract class be final in Java?
+148.Can abstract class have a static method in Java?
+149.What is an abstract method in Java?
+150.Can an abstract class have the main method?
+151.Can we call an abstract method from a non-abstract method?
+152.Can we mark a local inner class as abstract?
+153.Can abstract method include throws clause?
+154.Can an abstract class have a final concrete method?
+

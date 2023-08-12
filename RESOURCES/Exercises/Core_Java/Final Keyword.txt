@@ -1,0 +1,84 @@
+1) What is the use of the final keyword in Java?
+2) Can we make a variable final in Java? What is different between a normal variable and final variable?
+3) Can we make a method final in Java? explain the difference between normal method and final method
+4) Can we make local variable final in Java?
+6) Can you change the state of the object to which a final reference variable is pointing?
+7) Can we make an array final in Java? Can you change its elements?
+8) Can you make a Collection final in Java e.g. ArrayList? What is the impact?
+9) What is the difference between abstract method and final method in Java?
+10) What is the use of final class in Java?
+11) Can you overload a final method in Java?
+12) Can you override a final method in Java?
+13) Can we make a static method final in Java?
+14) Can we make an abstract method final in Java?
+15) Can we use non-final local variables inside an Anonymous class?
+16) Can you declare Constructor as final in Java?
+17) What is constant in Java?
+18) Are static final variables are thread-safe?
+19) Can a class be abstract and final at the same time?
+20) When to make a method final in Java?
+21) When to make a class final in Java?
+22.Can we change the state of an object to which a final reference variable is pointing?
+23. What is the main difference between abstract methods and final methods?
+24. What is the use of final class?
+25. Can we change the value of an interface field? If not, why?
+26.What is a blank final field or variable in Java?
+27.Where all we can initialize a final non-static global variable if it is not initialized at the time of declaration?
+28.What are final class, final method and final variable?
+29.Where all we can initialize a final static global variable if it is not initialized at the time of declaration?
+30.Can we use non-final local variables inside a local inner class?
+31.Can we declare constructors as final?
+32.Can we declare final variable without initialization?
+33.What is a final method?
+34.What is a final class?
+35.Can a main() method be declared final?
+36.Can we declare constructor as final?
+37.Can we declare an interface as final?
+38.Can Final Variable be serialized in Java?
+39.What will happen if you add final to a List / ArrayList?
+40.Can we make a method final in Java?
+41.What is effectively final in Java?
+42.Can we make the local variable be final?
+43.Can final method be overloaded in Java?
+44.Can we create object for final class?
+45.What is the main difference between abstract methods and final methods?
+46.What is the difference between abstract class and final class?
+47.Can we make an abstract method final in Java?
+48What is the difference between static and final in Java?
+49.What is a Static Final variable in Java?
+50.Where you can use final keyword in java?
+51.Can we inherit final class?
+52.Can we change the value of final variables?
+53.Can we apply final keyword with main() method?
+54.What is blank final variable?
+53.What is static blank final variable?
+54.How we can initialize blank final variables?
+55.How we can initialize static blank final variables?
+56.Can we inherit final method in sub-class?
+57.Can we create object for final class?
+58.Can we make interface as final?
+59.Difference between abstract method and final method in java?
+60.What is the difference between final, finally and finalize?
+61.What is the most common predefined final class object you used in a program?
+62.Can we use non-final local variables inside a local inner class?
+63.What happens, if final variable is NOT initialized with initial value at the time of declaration ?
+64.What happens, if final variable is re-assigned in the same class body ?
+65.Explain order of final variable initialization in Java ?
+66.What happens, if final method is overridden in the sub class ?
+67.Whether it is possible to invoke final methods ?
+68.Whether it is possible to inherit final class ? And what happens, if we extend final class ?
+69.Can we declare interface as final? If not, why explain ?
+70.Can we declare constructor as final ?
+71.Whether final keyword allowed in input parameters (formal parameters) of method signature ?
+72.Whether compilation succeeds, if instance of final class is created ?
+73.Difference between abstract method and final method ?
+74.Relationship between immutable class and final class ?
+75.Can we make an array final in Java? Can you change its elements after initializing?
+76.Difference between abstract method and final method in Java.
+77.Can you overload a final method in Java?
+78.Can a class be abstract and final?
+79.Where to initialize a non-static final variable?
+80.Where to initialize a static final variable in Java?
+81.Is it possible to declare final variables without initialization?
+82.What is the most common predefined final class object you used in your code? 
+83.What is a Static Final variable in Java?

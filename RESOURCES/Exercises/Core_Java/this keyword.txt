@@ -1,0 +1,13 @@
+1. What is this keyword?
+2. Why use this keyword ?
+3. What are the uses of this keyword in constructor ?
+4. Can we call methods using this keyword ?
+5. Is it possible to assign reference to this ?
+6. Can we use this to refer static members?
+7. Is it possible to use this in static blocks?
+8. Whether it is possible to invoke one constructor from another constructor in the same class ?
+9. Whether compiler inserts this(); constructor implicitly similar to super() constructor call ?
+10. How can we refer instance variables of same class ?
+11. Whether it is possible to refer static variables using this keyword ?
+12. Whether it is possible to return this (this keyword) ?
+13. Whether it is possible to pass this as method arguments ?

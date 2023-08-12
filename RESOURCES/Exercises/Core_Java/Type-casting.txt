@@ -1,0 +1,258 @@
+1) What is type casting.?
+2) What are the types of casting.?
+3) What is auto widening and explicit narrowing.?
+4) What is auto-up casting and explicit down casting.?
+5) Can an int primitive type of data implicitly casted to Double derived type.?
+6) What is ClassCastException.?
+7) How do you avoid ClassCastException in your code.?
+8) What is boxing and unboxing.?
+9) What is the difference between auto-widening, auto-upcasting and auto-boxing.?
+10.What is auto widening and explicit narrowing in Java?
+11.What is auto-up casting and explicit down casting in Java?
+21) What are the Type Conversions available in Java language?
+22) What is a higher data type in Java language?
+23) What is a Widening Type Conversion in Java?
+24) What is a Narrowing Type Conversion in Java?
+25) What is the result of a Narrowing type conversion?
+26) What is the result of a Widening Type Conversion in Java?
+27) Type promotion in Java usually refers to ____.
+28) Type Casting in Java usually refers to ____?
+29) Explicit Type Conversion in Java refers to ___?
+30) Implicit Type Conversion in Java is also called ___?
+31) Which are the compatible Data Types for Type Promotion or Type Casting?
+32) What is the output of the following Java Code?
+int a=9;
+float b = a/2;
+System.out.println(b);
+A) 4.0
+B) 4.5
+C) 5.0
+D) None of the above
+33)What is the output of the below Java code snippet?
+char ch = 'A';//ASCII 65
+int a = ch + 1;
+ch = (char)a;
+System.out.println(ch);
+A) 66
+B) A
+C) B
+D) 65
+34) What is the output of the below Java code snippet?
+float a = 8.2/2;
+System.out.println(a);
+A) 4.1
+B) 8.1
+C) 4
+D) Compiler error
+35) What is the output of the Java code snippet?
+byte b = 25;
+b++;
+b = b+1;
+System.out.println(b);
+A) 25
+B) 26
+C) 27
+D) Compiler error
+36)What is the output of the Java code snippet?
+int a = 260;
+byte b= (byte)a;
+System.out.println(b);
+A) 0
+B) 4
+C) 255
+D) 260
+37) In a lossy Type Casting or Type Conversion, how is the number truncated to the target data type in Java?
+A) That big number is divided by the target data type highest possible number say 2^N.
+B) That big number is Modulo Divided by the target data type highest possible number say 2^N and the Remainder is taken.
+C) That big number is Modulo Divided by the target data type highest possible number say 2^N and the Quotient is taken.
+D) None of the above
+38) What is the output of the Java code snippet?
+short a = (short)65540;
+System.out.println(a);
+A) 0
+B) 4
+C) 65536
+D) 65540
+39) A boolean literal in Java can be type casted to which data type?
+A) byte
+B) short
+C) int
+D) None of the above
+40) If a variable or operand in an expression is type long, then all the operands are type promoted to which data type?
+A) int
+B) long
+C) float
+D) double
+41.Are char and short smaller datatypes than int (Meaning their capacity to hold data is less than that of int)?
+42.What is the result of an expression involving anything int-sized or smaller?
+43.Can an integer value fit in a 64-bit double data type?
+44.Can you assign an int data type to a float without casting.
+45.What must be done, in order to assign a floating-point literal to a float variable, you must either 1) cast the value or 2) append a f to the end of the literal.
+46.Show two examples of the byte datatype where the compilation succeeds and the compilation fails?
+47. What is upcasting?
+48.Which among the following is true for upcasting in inheritance?
+a) Downward to the inheritance tree
+b) Upward to the inheritance tree
+c) Either upward or downward
+d) Doesn’t apply on inheritance
+49.Which among the following is safe?
+a) Upcasting
+b) Downcasting
+c) Both upcasting and downcasting
+d) If upcasting is safe then downcasting is not, and vice versa
+49.Which among the following is the best situation to use upcasting?
+a) For general code dealing with only subtype
+b) For general code dealing with only supertype
+c) For general code dealing with both the supertype and subtype
+d) For writing a rigid code with respect to subtype
+50.Which property is shown most when upcasting is used?
+a) Code reusability
+b) Code efficiency
+c) Complex code simple syntax
+d) Encapsulation
+51.Upcasting and downcasting objects are the same as casting primitive types.
+a) True
+b) False
+52.Which casting among the following is allowed for the code given below?
+class A
+{
+	public :int a;
+}
+class B:public A
+{
+	int b;
+}
+main()
+{
+	B b=new A();  //casting 1
+	A a=new B();  //casting 2
+}
+a) Casting 1
+b) Casting 2
+c) casting 1 and casting 2
+d) casting 1 nor casting 2
+53.If multiple inheritance is implemented, which upcasting will be correct?
+a) Upcast to first base class listed in inheritance
+b) Upcast to send base class listed in inheritance
+c) Upcast to any base class
+d) Upcast is not possible
+54.If class C inherits class B and class B inherits class A ________________
+a) Class C object can be upcasted to object of class B only
+b) Class C object can be upcasted to object of class A only
+c) Class C object can be upcasted to object of either class A or B
+d) Class C object can’t be upcasted
+55.Upcasting is _____________________ without an explicit type cast.
+a) Always allowed for public inheritance
+b) Always allowed for protected inheritance
+c) Always allowed for private inheritance
+d) Not allowed
+56.Which concept is needed because of implicit type casting use?
+a) Static binding
+b) Dynamic binding
+c) Compile time binding
+d) Source code binding
+57.When are the pointer types known for upcasting the objects?
+a) Compile time
+b) Runtime
+c) Source code build time
+d) Doesn’t apply to pointer types
+58.When are the object type known for upcasting the objects?
+a) Compile time
+b) Runtime
+c) Source code build time
+d) Doesn’t apply to objects directly
+59.If two classes are defined “Parent” and “Child” then which is the correct type upcast syntax in C++?
+a) Parent *p=child;
+b) Parent *p=*child;
+c) Parent *p=&child;
+d) Parent *p=Child();
+60.Which among the following is true?
+a) Upcasting is possible only for single level inheritance
+b) Upcasting is possible only for multilevel inheritance
+c) Upcasting is possible only for multiple inheritance
+d) Upcasting is possible for any type of inheritance
+61. Which among the following is true for upcasting in inheritance?
+a) Downward to the inheritance tree
+b) Upward to the inheritance tree
+c) Either upward or downward
+d) Doesn’t apply on inheritance
+62.Which among the following is safe?
+a) Upcasting
+b) Downcasting
+c) Both upcasting and downcasting
+d) If upcasting is safe then downcasting is not, and vice versa
+63.Which among the following is the best situation to use upcasting?
+a) For general code dealing with only subtype
+b) For general code dealing with only supertype
+c) For general code dealing with both the supertype and subtype
+d) For writing a rigid code with respect to subtype
+64.Which property is shown most when upcasting is used?
+a) Code reusability
+b) Code efficiency
+c) Complex code simple syntax
+d) Encapsulation
+65.Upcasting and downcasting objects are the same as casting primitive types.
+a) True
+b) False
+66.Which casting among the following is allowed for the code given below?
+class A
+{
+	public :int a;
+}
+class B:public A
+{
+	int b;
+}
+main()
+{
+	B b=new A();  //casting 1
+	A a=new B();  //casting 2
+}
+a) Casting 1
+b) Casting 2
+c) casting 1 and casting 2
+d) casting 1 nor casting 2
+67.If multiple inheritance is implemented, which upcasting will be correct?
+a) Upcast to first base class listed in inheritance
+b) Upcast to send base class listed in inheritance
+c) Upcast to any base class
+d) Upcast is not possible
+68.If class C inherits class B and class B inherits class A ________________
+a) Class C object can be upcasted to object of class B only
+b) Class C object can be upcasted to object of class A only
+c) Class C object can be upcasted to object of either class A or B
+d) Class C object can’t be upcasted
+69.Upcasting is _____________________ without an explicit type cast.
+a) Always allowed for public inheritance
+b) Always allowed for protected inheritance
+c) Always allowed for private inheritance
+d) Not allowed
+View Answer
+Answer: a
+Explanation: The public inheritance shows the most flexible is-a relationship. Hence explicit type casting is not required. Implicit type casting is done by the compiler.
+70.Which concept is needed because of implicit type casting use?
+a) Static binding
+b) Dynamic binding
+c) Compile time binding
+d) Source code binding
+71.When are the pointer types known for upcasting the objects?
+a) Compile time
+b) Runtime
+c) Source code build time
+d) Doesn’t apply to pointer types
+72.When are the object type known for upcasting the objects?
+a) Compile time
+b) Runtime
+c) Source code build time
+d) Doesn’t apply to objects directly
+73.If two classes are defined “Parent” and “Child” then which is the correct type upcast syntax in C++?
+a) Parent *p=child;
+b) Parent *p=*child;
+c) Parent *p=&child;
+d) Parent *p=Child();
+74.Which among the following is true?
+a) Upcasting is possible only for single level inheritance
+b) Upcasting is possible only for multilevel inheritance
+c) Upcasting is possible only for multiple inheritance
+d) Upcasting is possible for any type of inheritance
+75. What are the different primitive data types in Java ?

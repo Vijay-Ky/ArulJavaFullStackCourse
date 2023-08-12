@@ -1,0 +1,246 @@
+1.How many types of Modifiers in Java?
+2. What are the access modifiers in java?
+3. Can we have a private constructor in Java?
+4. Which access specifier can be used with a class?
+5. Can we instantiate the object of derived class if the parent constructor is protected?
+6. What are non-access modifiers in Java?
+7. Can we declare a top-level class as private?
+8. Can we declare an abstract method as private?
+9. Can we declare a top-level class as protected?
+10. Can a method or a class be final and abstract at the same time?
+11. Why are access modifiers used?
+12. Which is the default access modifier?
+13. What is the default access modifier for Interface?
+14. Can we define struct members as protected?
+15. What is the default access specifier for a class, an interface, and struct declared directly with a namespace?
+16. What is the access modifier for enumeration?
+17. What is the role of private constructor in Java?
+18. Which is the least restrictive access modifier in Java?
+19. Which is the most restrictive access modifier in Java?
+20. Which access modifier is also known as Universal access modifier?
+21. Explain visibility control in Java.
+22.What is default class modifier?
+23.What are the different method access modifiers?
+24.What is the use of a final modifier on a class?
+25.What is the use of a final modifier on a method?
+26.What is a Final variable?
+27.What is a final argument?
+28.What happens when a variable is marked as volatile?
+29.State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.
+30.Can a top-level class be private or protected?
+31.What type of parameter passing does Java support?
+32.Primitive data types are passed by reference or pass by value?
+33.Are objects passed by value or by reference?
+34.Can a class be declared as protected?
+35.What is the access scope of a protected method?
+36.If a variable is declared as private, where may the variable be accessed?
+37.What do you understand by private, protected and public?
+38.What modifiers may be used with an inner class that is a member of an outer class?
+39.If a class is declared without any access modifiers, where may the class be accessed?
+40.If a method is declared as protected, where may the method be accessed?
+41.What is the difference between a public and a non-public class?
+42.What modifiers may be used with a top-level class?
+43.What modifiers may be used with an inner class that is a member of an outer class?
+44.What modifiers may be used with a top-level class?
+45. Can you create a sub class to the following class?
+class A
+{
+    private A()
+    {
+        //First Constructor
+    }
+     
+    private A(int i)
+    {
+        //Second Constructor
+    }
+}
+
+46.Can you find out the error in the below code?
+private class A
+{
+    private class B
+    {
+        //Inner class
+    }
+}
+47.Does field ‘i’ of Class A be inherited to Class B in the below code?
+48. Is the below code written correctly?
+class A
+{
+    private class B
+    {
+        //inner class
+    }
+}
+ 
+public class MainClass extends A
+{
+    public static void main(String[] args)
+    {
+        B b = new B();
+    }
+}
+49.Is the below code written correctly?
+package pack1;
+class A
+{
+     
+}
+ 
+package pack2;
+ 
+class B extends A
+{
+     
+}
+Can we declare a class as protected?
+50.Do you think the below program is written correctly? If yes, what will be the output?
+package pack1;
+class X
+{
+    protected int i = 1221;
+     
+    void methodOfX()
+    {
+        System.out.println(i);
+    }
+}
+ 
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        X x = new X();
+         
+        System.out.println(x.i);
+         
+        x.methodOfX();
+    }
+}
+51.Why we can’t instantiate Class-A in the below code outside the package even though it has public constructor?
+package pack1;
+class A
+{
+    public A()
+    {
+        //public constructor
+    }
+}
+ 
+package pack2;
+import pack1.*;
+class B
+{
+    A a = new A();       //Compile Time Error
+}
+
+52.Can a protected field of a class be inherited to subclass outside the package?
+53.Why Line 17 in the below code is throwing compile time error?
+54.Why Line 17 in the below code is throwing compile time error?
+	package pack1;
+ 
+public class A
+{
+    protected A()
+    {
+        //protected constructor
+    }
+}
+ 
+package pack2;
+ 
+import pack1.A;
+ 
+class B
+{
+    A a = new A();
+}
+55.Do you think the below code compiles successfully even though it is calling super class’s protected constructor outside the package?
+package pack1;
+public class A
+{
+    protected A(int i)
+    {
+        //protected constructor
+    }
+}
+ 
+package pack2;
+ 
+import pack1.A;
+ 
+class B extends A
+{
+    public B()
+    {
+        super(10);     //calling super class's protected constructor
+    }
+}
+56.Can we declare static methods as private?
+57.Is the below code written correctly? If yes, what will be the output?
+package pack1;
+class A
+{
+    protected static String s = "A";
+}
+ 
+class B extends A
+{
+     
+}
+ 
+class C extends B
+{   
+    static void methodOfC()
+    {
+        System.out.println(s);
+    }
+}
+ 
+public class MainClass
+{
+    public static void main(String[] args)
+    {
+        C.methodOfC();
+    }
+}
+58.Write the access modifiers in the increasing order of their visibility?
+59.How many public classes a .java file can have?
+60.What will be the outcome of the below program?
+61.Can you find out the error in the following code snippet?
+class A
+{
+    public void methodOfA()
+    {
+        System.out.println("Class A");
+    }
+}
+ 
+class B extends A
+{
+    @Override
+    void methodOfA()
+    {
+        System.out.println("Class B");
+    }
+}
+62. private method can be overridden as public method. True or False?
+63. A method of super class with default access modifier can be overridden as protected or public but not as private. True or false?
+64. Monu has written the code like below but it is showing compile time error. Can you help him to remove the error?
+65. What are non-access modifiers in java.?
+66. Can we use a field or a method declared without access modifiers outside the package.?
+67. Can a method or a class be final and abstract at the same time.?
+68. Can we declare a class as private.?
+69. Can we declare an abstract method as private also.?
+70. Can we declare a class as protected.?
+71. A class can not be declared with synchronized keyword. Then, why we call classes like Vector, StringBuffer are synchronized classes.?
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1094 @@
+1.What is interface in java?
+2.Can we achieve multiple inheritance by using interface?
+3.How to declare an interface, write a syntax?
+4.Can we create an object of an interface?
+5.Can we declare the interface as final?
+6.Which keyword java compiler add before interface fields and methods?
+7.Does interface extend Object class by default?
+8.Can an interface extend another interface?
+9.Can an interface extend a class?
+10.Can we put a static method in interfaces?
+11.Can we declare an interface with the abstract keyword?
+12.What is default keyword in an interface?
+13.What is marker or tagged interface?
+14.Can we declare a constructor in the interface?
+15.After compilation of interface program, .class file will be generated for every interface in java... true or false.?
+16.Can we change the value of a field in interface after initialization?
+17.Difference between abstract class and interface?
+18.How To Describe Interfaces In Interviews?
+19.What will happen if we define a concrete method in an interface in Java?
+20.Can we create non static variables in an interface?
+21.What will happen if we do not initialize variables in Java interface.
+22.Can we declare interface members as private or protected?
+23.When we need to use extends and implements?
+24.Can we create object for an interface in Java?
+25.Can we declare interface as final?
+26.Can we declare constructor inside an interface?
+27.What will happen if we are not implementing all the methods of an interface in class which implements an interface?
+28.How can we access same variables defined in two interfaces implemented by a class?
+29.If Same method is defined in two interfaces can we override this method in class implementing these interfaces.
+30.Can we re-assign a value to a field of interfaces?
+31.Can we declare an Interface with “abstract” keyword?
+32.For every Interface in java, .class file will be generated after compilation. True or false?
+33.Can we override an interface method with visibility other than public?
+34.Can interfaces become local members of the methods?
+35.Can an interface extend a class?
+36.Like classes, does interfaces also extend Object class by default?
+37.Can interfaces have static methods?
+38.Advantage and disadvantages of Interfaces
+39.What is an interface in Java?
+40.Can we define private and protected modifiers for data members (fields) in interfaces?
+41.Which modifiers are allowed for methods in an Interface?
+42.Suppose A is an interface. Can we create an object using new A()?
+43.Can we define an interface with a static modifier?
+44.Suppose A is an interface. Can we declare a reference variable a with type A like this: A a;
+45.Can an interface extends another interface in Java?
+46.Can an interface implement another interface?
+47.Is it possible to define a class inside an interface?
+48.Which of the following is a correct representation of interface?
+a) public abstract interface A {
+    abstract void m1() {};
+   }
+b) public abstract interface A {
+    void m1();
+   }
+c) abstract interface A extends B, C {
+     void m1();
+   }
+d) abstract interface A extends B, C {
+    void m1(){};
+   }
+e) abstract interface A {
+    m1();
+   }
+f) interface A {
+    void m1();
+   }
+g) interface A {
+    int m1();
+   }
+h) public interface A {
+    void m1();
+   }
+   public class B implements A { 
+   }
+i) public interface A {
+     void m1();
+   }
+   Public interface B {
+     void m1();
+   }
+   public interface C extends A, B {
+    void m1();
+   }
+49.Identify the error in the following code.
+a)
+ 
+
+interface A {
+
+ void m1();
+
+}
+
+public class B implements A {
+
+void m1(){
+
+  System.out.println("One");    
+
+ }
+
+}
+
+
+
+
+interface A {
+
+ A() { }    
+
+ void m1();
+
+}
+
+public abstract class B implements A {
+
+public void m1(){
+
+  System.out.println("One");    
+
+ }
+
+}
+
+c)
+ 
+
+interface A {
+
+ int x; 
+
+ void m1();
+
+}
+
+public class B implements A {
+
+ int x = 20;
+
+public void m1(){
+
+  System.out.println("One");    
+
+ }
+
+}
+
+
+50.What will be the output of the following program?
+ 
+
+interface A {
+
+ int x = 10;    
+
+ void m1();
+
+}
+
+public class B implements A {
+
+int x = 20;
+
+public void m1(){
+
+  System.out.println("One");    
+
+ }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ A a = new B();
+
+  a.m1();
+
+  System.out.println(a.x);
+
+  }
+
+}
+51.Can an interface extend multiple interfaces?
+52.Can an interface has instance and static blocks?
+53.What will be the output of the following program?
+interface A {
+
+ int x = 10;    
+
+}
+
+interface B {
+
+ int x = 20;
+
+}
+
+interface C extends A, B{
+
+ int x = 30;
+
+public static void main(String[] args){
+
+ int a = A.x;
+
+ int b = B.x;
+
+ int c = C.x;
+
+ System.out.println(a);
+
+ System.out.println(b);
+
+ System.out.println(c);
+
+ }
+
+}
+54.What happens if a class has implemented an interface but has not provided implementation for that method defined in Interface?
+55.Why an Interface method cannot be declared as final in Java?
+56.Can an interface be final?
+57.Why an interface cannot have a constructor?
+58.Why an Interface can extend more than one Interface but a Class can’t extend more than one Class?
+59.What is the use of interface in Java?
+60.Is it necessary to implement all abstract methods of an interface?
+61.Can we define a variable in an interface? What type it should be?
+62.Can we re-assign a value to a variable of interface?
+63.What is the difference between abstract class and interface in Java?
+64. What is the difference between class and interface in Java?
+65. What is a Marker Interface in Java?
+66.What is a Nested interface?
+67. Can we reduce the visibility of interface method while overriding?
+68. Can we define an interface inside a method as local member?
+69. Will the code compiled successfully? If yes, what will be the output?
+ 
+interface A {   
+
+ void m1(int x, double y);  
+
+ void m2(String z);
+
+}
+
+class B implements A {
+
+public void m1(int x, double y){
+
+  System.out.println("Hello");   
+
+ }
+
+ public void m2(String z){
+
+  System.out.println("Java");    
+
+ }
+
+ void m3(){
+
+  System.out.println("Hello Java!");     
+
+ }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ B b = new B();
+
+ b.m1(20, 10.0);
+
+ b.m2(null);
+
+ b.m3();
+
+ }
+
+}
+
+70. What will be the output of the following programs?
+
+interface A {   
+
+ void m1(int x, double y);  
+
+}
+
+abstract class B implements A {
+
+public void m1(double x, int y){
+
+  System.out.println("One");     
+
+ }
+
+}
+
+public class Test extends B {
+
+public void m1(double x, int y){
+
+ System.out.println("Two");
+
+ super.m1(20.5, 20);
+
+}
+
+public void m1(int x, double y){
+
+    System.out.println("Three");
+
+}
+
+public static void main(String[] args){
+
+ Test t = new Test();
+
+ t.m1(20.5, 10);
+
+ t.m1(10, 5.5);
+
+ }
+
+}
+
+
+interface A {   
+
+ void m1(A a);  
+
+}
+
+abstract class B implements A {
+
+  void m1(B b){
+
+  System.out.println("One");     
+
+ }
+
+}
+
+public class Test extends B {
+
+public void m1(A a){
+
+ System.out.println("Two");
+
+}
+
+public void m1(B b){
+
+    System.out.println("Three");
+
+}
+
+public static void main(String[] args){
+
+ A a = new Test();
+
+ a.m1(new Test());
+
+ }
+
+}
+
+
+
+ 
+
+interface A {   
+
+ void m1(A a);  
+
+}
+
+abstract class B implements A {
+
+ void m1(B b){
+
+  System.out.println("One");     
+
+ }
+
+}
+
+public class Test extends B {
+
+ void m1(A a){
+
+ System.out.println("Two");
+
+}
+
+ void m1(B b){
+
+    System.out.println("Three");
+
+}
+
+public static void main(String[] args){
+
+ A a = new Test();
+
+ a.m1(null);
+
+ }
+
+}
+
+
+interface A {   
+
+ void m1(); 
+
+}
+
+abstract class B implements A {
+
+public void m1(){
+
+  System.out.println("One");     
+
+ }
+
+}
+public class Test extends B {
+
+public void m1(){
+
+ System.out.println("Two");
+
+ super.m1();
+
+}
+
+public static void main(String[] args){
+
+ A a = new Test();
+
+ a.m1();
+
+ B b = new Test();
+
+  b.m1();
+
+ }
+
+}
+
+
+
+interface A {   
+
+ int m1();  
+
+}
+
+class B implements A {
+
+public int m1(){
+
+  return 20;     
+
+ }
+
+}
+
+public class C implements A {
+
+ public int m1(){
+
+  return 30;     
+
+ }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ A a = new B();
+
+int aa =  a.m1();
+
+System.out.println(aa);
+
+ 
+
+C c = new C();
+
+int cc = c.m1();
+
+System.out.println(cc);
+
+ }
+
+}
+
+
+interface A {   
+
+ A m1();    
+
+}
+
+class B implements A {
+
+public A m1(){
+
+  System.out.println("Red");    
+
+  return null;   
+
+ }
+
+}
+
+public class C implements A {
+
+ public A m1(){
+
+  System.out.println("Orange");  
+
+  return null;   
+
+  }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ A a = new B();
+
+  a.m1();
+
+ C c = new C();
+
+  c.m1();
+
+ }
+
+}
+
+
+71.Will the below code compile successfully? If yes, what will be the output of the following program?
+ 
+
+interface A {   
+
+ A m1();    
+
+}
+
+class B implements A {
+
+public B m1(){
+
+  System.out.println("Red");    
+
+  return new B();    
+
+ }
+
+}
+
+public class C implements A {
+
+ public C m1(){
+
+  System.out.println("Orange");  
+
+  return new C();    
+
+ } 
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ A a;
+
+  a = new B();
+
+  a.m1();
+
+  a = new C();
+
+  a.m1();
+
+ }
+
+}
+
+
+72. What will be the output of the following program?
+ 
+
+interface A {   
+
+  int x = 20;    
+
+  interface B {
+
+    int x = 30;  
+
+  }
+
+}
+
+class C implements A {
+
+ int x = 40;
+
+}
+
+public class D implements A.B {
+
+ int x = 50;
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ System.out.println(A.x);
+
+ System.out.println(A.B.x);
+
+ C c = new C();
+
+ System.out.println(c.x);
+
+ D d = new D();
+
+ System.out.println(d.x);
+ }
+}
+
+
+73. Identify the error inside the following code and correct it. What will be the output after the correction of error?
+
+interface A {   
+
+  void m1();     
+
+  interface B {
+
+    void m1();  
+
+  }
+
+}
+
+class C implements A.B {    
+
+ public void m1(){
+
+  System.out.println("Green");   
+
+ }
+
+}
+
+public class Test {
+
+public static void main(String[] args){
+
+ A a = new C();
+
+ a.m1();
+
+ }
+
+}
+
+74.Is there any error in the following code? If yes, correct it.
+ 
+
+interface A {   
+
+  void m1();     
+
+  interface B {
+
+    void m2();  
+
+  }
+
+}
+
+class C implements A, A.B { 
+
+ public void m1(){
+
+  System.out.println("Green");   
+
+  }
+
+ }
+
+
+75. Will the code compile successfully? If yes, what will be the output?
+ 
+
+interface A {   
+
+  void m1();     
+
+  interface B {
+
+    void m2(); 
+
+  }
+
+}
+
+class C implements A, A.B { 
+
+ public void m1(){
+
+  System.out.println("Green");   
+
+  }
+
+public void m2(){
+
+  System.out.println("Red");     
+
+  }
+
+ }
+
+public class Test {
+
+public static void main(String[] args){
+
+ C c = new C();
+
+ c.m1();
+
+ c.m2();
+
+ }
+
+}
+
+
+76. Identify the error in the below code. If no error, what will be the output of the program?
+ 
+
+interface A {   
+
+  void m1();     
+
+  interface B {
+
+    void m2(); 
+
+  }
+
+}
+
+interface C extends A, A.B {    
+
+ strictfp default void m1(){
+
+  System.out.println("Green");   
+
+  }
+
+ strictfp default void m2(){
+
+  System.out.println("Red");     
+
+  }
+
+ }
+
+public class Test implements C{
+
+public static void main(String[] args){
+
+ Test t = new Test();
+
+  t.m1();
+
+  t.m2();
+
+ }
+
+}
+
+
+77. What will be the output of following program if no error?
+ 
+
+public class A {
+
+void m1(){
+
+ System.out.println("One"); 
+
+}
+
+ interface B {
+
+    void m2(); 
+
+  }
+
+}
+
+class C extends A { 
+
+ void m1(){
+
+  System.out.println("Two");
+
+  super.m1();
+
+  }
+
+ }
+
+public class Test implements A.B{
+
+public void m2(){
+
+ System.out.println("Three");   
+
+}
+
+public static void main(String[] args){
+
+ Test t = new Test();
+
+  t.m2();
+
+ C c = new C();
+
+  c.m1();
+
+ }
+
+}
+
+
+78. What is a Functional interface in Java 8?
+79. How to define a Functional interface in Java 8?
+
+
+interface A {
+
+  void m1();
+
+}
+80. Is it mandatory to use @FunctionalInterface annotation with Functional interface in Java 8?
+81. What is default method in Java 8?
+82. Which of the following are valid or non-valid default methods defined in an interface?
+ 
+a) interface A {
+
+    abstract void m1();
+
+    default int m2() { return 10; }
+
+}
+
+b) interface A {
+
+     abstract void m1();
+
+     public default void m2(){ System.out.println("Hello Java");}
+
+   }
+
+c) interface A {
+
+     static default m1() {  }
+
+    }
+
+d) interface A {
+
+      abstract void m1();
+
+      static void m2() { System.out.println("Hello Java");  }
+
+      public default void m3();
+
+     }
+
+83. What is the output of the following program?
+ 
+
+interface A {   
+
+ abstract void m1();    
+
+ static void m2(){
+
+  System.out.println("Static method");
+
+ }
+
+ default void m3(){
+
+  System.out.println("Default method");  
+
+ }
+
+}
+
+class B implements A {  
+
+ public void m1(){
+
+  System.out.println("Overridden m1 method");
+
+ }
+
+}
+
+public class Test{
+
+public static void main(String[] args){
+
+ A a = new B();
+a.m1();
+A.m2();
+a.m3();
+ }
+}
+84. Will the code successfully compile? If yes, what will be the output of the program?
+ 
+interface A {   
+abstract void m1();    
+public static void m2(){
+System.out.println("One");
+}
+default void m3(){
+System.out.println("Two");     
+}
+}
+class B implements A {  
+public void m1(){
+System.out.println("Three");
+}
+void m3(){
+System.out.println("Four");    
+}
+}
+public class Test{
+public static void main(String[] args){
+A a = new B();
+a.m1();
+A.m2();
+a.m3();
+  }
+}
+85. Identify the error in the following code and correct it.
+ 
+
+interface A {   
+
+ abstract void m1();    
+
+ abstract default void m2(){
+
+  System.out.println("Two");     
+
+ }
+
+}
+
+class B implements A {  
+
+ public void m1(){
+
+  System.out.println("Three");
+
+ }
+
+}
+
+public class Test{
+
+public static void main(String[] args){
+
+ A a = new B();
+
+ a.m1();
+
+ a.m2();
+
+  }
+
+}
+
+
+86. Why do we need Functional interface in Java 8?
+87. Can we declare private method inside an interface in JDK 9?
+88. Can we declare a method in an interface with combinations of modifiers like abstract, public, static, and private in JDK 9?
+89. Can interfaces have constructors, SIB and IIB?
+90. Can we re-assign a value to a field of interfaces?
+91. Can we declare an Interface with “abstract” keyword?
+92. For every Interface in java, .class file will be generated after compilation. True or false?
+93. Can we override an interface method with visibility other than public?
+94. Can interfaces become local members of the methods?
+95. Can an interface extend a class?
+96. Like classes, does interfaces also extend Object class by default?
+97. Can interfaces have static methods?
+98. Can an interface have a class or another interface as it’s members?
+99. What are marker interfaces? What is the use of marker interfaces?
+100.What is Interface in Java? OR Explain Interface in Java?
+101.Can we instantiate an interface?
+102.Can we create an object for an interface?
+103.What happens if we define a concrete method inside Interface?
+104.Can a method inside an interface be declared as final?
+105.What happens if we don’t initialize variables inside Interface?
+106.Can we declare members as private or protected modifier inside Interface?
+107.How can we access variables defined inside Interface?
+108.Can we modify variables defined inside Interface?
+109.Can we re-assign a value to a field of interface?
+110.What modifiers are allowed for methods in an interface?
+111.Is it ok to add an “abstract” keyword to interface definition?
+112.Whether class compiles successfully if we don’t implement any of the abstract methods from Interface?
+113.What is the best possible solution if we don’t want to implement a few of the abstract methods from Interface?
+114.Can we reduce the visibility of the methods while implementing an interface?
+115.Can we declare a constructor inside the interface?
+116.Can an interface be final?
+117.Can interface extend any class?
+118.Can an interface implement any other interface?
+119.Can an Interface extend another interface?
+120.What is a marker interface or tagged Interface?
+121.Can an interface contain another interface as a member?
+122.What is Nested Interface in Java?
+123.What are the default methods in Java 8?
+124.Is it ok to define default methods in Java 8 without the “default” keyword inside the interface?
+125.Whether multiple inheritances possible i.e.; implementing 2 or more interfaces?
+126.What happens in multiple inheritances from Java 8?
+127.What happens if a class implements 2 interfaces having exactly the same “default” method with the same signature?
+128.How can we resolve the ambiguity problem in Java 8 while implementing multiple Interfaces?
+129.How to invoke one of the interface’s default methods while implementing two interfaces?
+130.How to come overcome, multiple inheritance problems in Java 8?
+131.What happens if a class implements 2 interfaces having the exact same method with the same signature (consider one as default and another abstract)?
+132.Can we declare the static method inside the interface?
+133.Is it ok, to define a static method inside the interface?
+134.How can we access static methods inside Interface?
+135.What is the interface in Java and what are its uses?
+136.Can a method inside an interface be declared as final?
+137.Can an interface implement another interface?
+138.Can an Interface extend another interface?
+139.Can a class extend more than one class?
+140.Can an interface be final?
+141.Can a class be defined inside an interface?
+142.Can an interface be defined inside a class?
+143.What is a Marker Interface?
+144.Can we define private and protected modifiers for variables in interfaces?
+145.What is Externalizable?
+146.What modifiers are allowed for methods in an interface?
+147.When can an object reference be cast to an interface reference?
+148.What is the difference between an Interface and an Abstract class?
+149.Can an anonymous class be declared as implementing an interface and extending a class?
+150.What is an abstract class?
+151.What is an interface?
+152.What is the use of a class implementing multiple interfaces?
+153.Why should multiple classes implement an interface?
+154.What is a Functional Interface?
+155.What is a marker interface?
+156.What is the use of extending an interface?
+157.What are default methods and what is the use of them?
+160.Can we override default methods?
+161.What is the use of static methods?
+162.What is the difference between abstract and interface? When to use what?
+163.When to use abstract classes?
+164.When to use interfaces?
+165.What is an Interface?
+166.How do you implement an interface?
+167.Can you tell a little bit more about interfaces?
+168.Can you extend an interface?
+169.Can a class implement multiple interfaces?
+
